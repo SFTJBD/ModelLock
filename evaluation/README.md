@@ -29,7 +29,7 @@ python evaluate.py \
 - Load the original Oxford Pets test set
 - Evaluate model performance on clean data
 
-### 2. Unlocked Model (Full Poison Test)
+### 2. Unlocked Model (Full Edited Test)
 
 Test the model performance after unlocking using the triggered test set.
 
