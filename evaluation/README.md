@@ -2,6 +2,15 @@
 
 This directory is used for model performance testing with two evaluation modes.
 
+## Download Checkpoint
+
+Download the pre-trained checkpoint from HuggingFace:
+
+```bash
+# Using huggingface-cli
+huggingface-cli download SFTJBD/ModelLock pets_mae_style_checkpoint-best.pth --local-dir ./checkpoints
+```
+
 ## Testing Modes
 
 ### 1. Locked Model (Vanilla Test)
